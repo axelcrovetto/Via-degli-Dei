@@ -1,0 +1,23 @@
+<td>{{tappa?.id}}</td>
+<td>{{tappa?.name}}</td>
+<td>{{tappa?.costo}}</td>
+<td>{{tappa?.costoATesta}}</td>
+<td>{{tappa?.caparra}}</td>
+<td>{{tappa?.note}}</td>
+<td>
+  <div class="row">
+    <div class="col-sm">
+      <a class="btn btn-sm btn-primary w-50" [routerLink] ="['/tappe',tappa?.id ]">
+        <fa-icon [icon]="faInfo"></fa-icon>
+      </a>
+    </div>
+    <div class="col-sm">
+  <a class="btn btn-sm btn-primary w-50" [routerLink] ="['/tappe',tappa?.id ,'edit']">
+    <fa-icon [icon]="faPen"></fa-icon>
+    </a>
+    </div>
+    <div class="col-sm">
+  <button class="btn btn-sm btn-danger w-50" (click)="deleteTappa()"> <fa-icon [icon]="faTrash"></fa-icon></button>
+  </div>
+  </div>
+</td>

@@ -2,12 +2,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
+
 import { UserComponent } from './user/user.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
 import { UsersComponent } from './users/users.component';
 import { FormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { UserService } from './services/user.service';
+
+import { TappaComponent } from './tappa/tappa.component';
+import { TappeComponent } from '../tappe/tappe.component';
 const routes: Routes = [
   {
     path: 'users',
@@ -27,7 +31,27 @@ const routes: Routes = [
   {
     path: 'users/:id/edit',
     component: UserDetailComponent
-  }
+  },
+
+  {
+    path: 'tappe',
+    pathMatch: 'full',
+    component: TappeComponent
+
+  },
+  {
+    path: '',
+    pathMatch: 'full',
+    redirectTo: 'tappe'
+  },
+  /* {
+    path: 'tappe/new',
+    component: UserDetailComponent
+  }, 
+  {
+    path: 'tappe/:id/edit',
+    component: UserDetailComponent
+  }*/
   
 ];
 
@@ -35,7 +59,9 @@ const routes: Routes = [
   declarations: [
     UsersComponent,
     UserComponent,
-    UserDetailComponent
+    UserDetailComponent,
+    TappaComponent,
+    TappeComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
