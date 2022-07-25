@@ -11,7 +11,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { UserService } from './services/user.service';
 
 import { TappaComponent } from './tappa/tappa.component';
-import { TappeComponent } from '../tappe/tappe.component';
+import { TappeComponent } from './tappe/tappe.component';
+
 const routes: Routes = [
   {
     path: 'users',

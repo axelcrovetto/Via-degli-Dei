@@ -1,6 +1,6 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { Tappa } from '../app/classes/Tappa';
-import { TappaService } from '../app/services/tappa.service';
+import { Tappa } from '../classes/Tappa';
+import { TappaService } from '../services/tappa.service';
 
 
 
