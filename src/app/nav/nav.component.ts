@@ -1,5 +1,5 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
-import {User} from "../classes/User";
+import {Tappa} from "../classes/Tappa";
 
 @Component({
   selector: 'app-nav',
@@ -7,13 +7,13 @@ import {User} from "../classes/User";
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
- @Output() onNewUser = new EventEmitter<null>();
+ @Output() onNewTappa = new EventEmitter<null>();
   constructor() { }
 
   ngOnInit(): void {
   }
   newUser(evt: MouseEvent) {
     evt.preventDefault();
-    this.onNewUser.emit();
+    this.onNewTappa.emit();
   }
 }
