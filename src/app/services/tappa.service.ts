@@ -14,6 +14,8 @@ tappe:Array<Tappa>= [
     caparra:'Nessuna',
     data:"06-AGOSTO-2022",
     note: '-',
+    pagamento: "Bonifico",
+    modalitaPagamento: 'Conto unico'
     },
   { id:2,
   name: 'Monte Adone',
@@ -22,6 +24,8 @@ tappe:Array<Tappa>= [
   caparra:'Nessuna',
   data:'07-AGOSTO-2022',
   note: '-',
+  pagamento: "Bonifico, contanti, sum up",
+  modalitaPagamento: 'Conto separato'
   },
   { id:3,
   name: 'Madonna dei Fornelli',
@@ -30,6 +34,8 @@ tappe:Array<Tappa>= [
   caparra:'Nessuna',
   data:"08-AGOSTO-2022",
   note: '-',
+  pagamento: "BOH",
+    modalitaPagamento: 'BOH'
   },
   { id:4,
   name: 'Monte di Fò',
@@ -37,7 +43,9 @@ tappe:Array<Tappa>= [
   costoATesta:376/8,
   caparra:'€81.00',
   data:"09-AGOSTO-2022",
-  note: 'Pagato. Chiedere se ha ci ha prenotato la cena',
+  note: 'Pagato. Chiedere se ci ha prenotato la cena',
+  pagamento: "Bonifico, contanti",
+  modalitaPagamento: 'Conto unico e separato'
   },
   { id:5,
   name: 'San Piero a Sieve',
@@ -46,6 +54,8 @@ tappe:Array<Tappa>= [
   caparra:'€40.00',
   data:"10-AGOSTO-2022",
   note: 'Pagati da Sara & Alex',
+  pagamento: "Solo contanti",
+  modalitaPagamento: 'Conto separato'
   },
   { id:6,
   name: 'Bivigliano',
@@ -54,6 +64,8 @@ tappe:Array<Tappa>= [
   caparra:'€126.00',
   data:"11-AGOSTO-2022",
   note: 'Caparra per 9 persone, €14 ciascuno. Verificare il resto',
+  pagamento: "Solo contanti",
+  modalitaPagamento: 'Conto separato'
   },
   { id:7,
   name: 'Firenze',
@@ -62,6 +74,8 @@ tappe:Array<Tappa>= [
   caparra:'Nessuna',
   data:"12-AGOSTO-2022",
   note: '-',
+  pagamento: "Chiedere ad Amarildo",
+  modalitaPagamento: 'Chiedere ad Amarildo'
   },
 ]
 

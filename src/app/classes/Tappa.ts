@@ -7,6 +7,8 @@ export class Tappa implements TappaInterface {
   caparra:string;
   data:string;
   note:string;
+  pagamento:string;
+  modalitaPagamento:string;
   constructor() {
     this.id = 0;
     this.name = '';
@@ -15,5 +17,7 @@ export class Tappa implements TappaInterface {
     this.caparra = '';
     this.data='';
     this.note='-';
+    this.pagamento='';
+    this.modalitaPagamento='';
   }
 }

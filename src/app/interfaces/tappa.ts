@@ -6,4 +6,6 @@ export interface TappaInterface {
   caparra:string;
   data:string;
   note:string;
+  pagamento:string;
+  modalitaPagamento:string;
 }
