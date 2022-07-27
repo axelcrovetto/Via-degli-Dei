@@ -5,7 +5,7 @@ export class Tappa implements TappaInterface {
   costo:number;
   costoATesta:number;
   caparra:string;
-  data:string;
+  data:Date;
   note:string;
   pagamento:string;
   modalitaPagamento:string;
@@ -15,7 +15,7 @@ export class Tappa implements TappaInterface {
     this.costo = 0;
     this.costoATesta = 0;
     this.caparra = '';
-    this.data='';
+    this.data=null;
     this.note='-';
     this.pagamento='';
     this.modalitaPagamento='';

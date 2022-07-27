@@ -12,7 +12,7 @@ tappe:Array<Tappa>= [
     costo:252.00,
     costoATesta:252/8,
     caparra:'Nessuna',
-    data:"06-AGOSTO-2022",
+    data:new Date("2022-8-6"),
     note: '-',
     pagamento: "Bonifico",
     modalitaPagamento: 'Conto unico'
@@ -22,7 +22,7 @@ tappe:Array<Tappa>= [
   costo:200,
   costoATesta: 200/8,
   caparra:'Nessuna',
-  data:'07-AGOSTO-2022',
+  data:new Date("2022-8-7"),
   note: '-',
   pagamento: "Bonifico, contanti, sum up",
   modalitaPagamento: 'Conto separato'
@@ -32,17 +32,17 @@ tappe:Array<Tappa>= [
   costo:176.00,
   costoATesta:176/8,
   caparra:'Nessuna',
-  data:"08-AGOSTO-2022",
+  data:new Date("2022-8-8"),
   note: '-',
   pagamento: "BOH",
-    modalitaPagamento: 'BOH'
+  modalitaPagamento: 'BOH'
   },
   { id:4,
   name: 'Monte di Fò',
   costo:376.00,
   costoATesta:376/8,
   caparra:'€81.00',
-  data:"09-AGOSTO-2022",
+  data:new Date("2022-8-9"),
   note: 'Pagato. Chiedere se ci ha prenotato la cena',
   pagamento: "Bonifico, contanti",
   modalitaPagamento: 'Conto unico e separato'
@@ -52,9 +52,9 @@ tappe:Array<Tappa>= [
   costo:176.00,
   costoATesta:176/8,
   caparra:'€40.00',
-  data:"10-AGOSTO-2022",
+  data:new Date("2022-8-10"),
   note: 'Pagati da Sara & Alex',
-  pagamento: "Solo contanti",
+  pagamento: "Solo contanti, Satispay",
   modalitaPagamento: 'Conto separato'
   },
   { id:6,
@@ -62,17 +62,17 @@ tappe:Array<Tappa>= [
   costo:224.00,
   costoATesta:224/8,
   caparra:'€126.00',
-  data:"11-AGOSTO-2022",
+  data:new Date("2022-8-11"),
   note: 'Caparra per 9 persone, €14 ciascuno. Verificare il resto',
-  pagamento: "Solo contanti",
-  modalitaPagamento: 'Conto separato'
+  pagamento: "BOH",
+  modalitaPagamento: 'BOH'
   },
   { id:7,
   name: 'Firenze',
   costo:232.65,
   costoATesta:232.65/6,
   caparra:'Nessuna',
-  data:"12-AGOSTO-2022",
+  data:new Date("2022-8-12"),
   note: '-',
   pagamento: "Chiedere ad Amarildo",
   modalitaPagamento: 'Chiedere ad Amarildo'
