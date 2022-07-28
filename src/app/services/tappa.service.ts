@@ -24,7 +24,7 @@ tappe:Array<Tappa>= [
   caparra:'Nessuna',
   data:new Date("2022-8-7"),
   note: '-',
-  pagamento: "Bonifico, contanti, sum up",
+  pagamento: "Bonifico, contanti, Sum up",
   modalitaPagamento: 'Conto separato'
   },
   { id:3,
@@ -64,8 +64,8 @@ tappe:Array<Tappa>= [
   caparra:'€126.00',
   data:new Date("2022-8-11"),
   note: 'Caparra per 9 persone, €14 ciascuno. Verificare il resto',
-  pagamento: "BOH",
-  modalitaPagamento: 'BOH'
+  pagamento: "Bonifico, contatti",
+  modalitaPagamento: 'Conto unico e separato'
   },
   { id:7,
   name: 'Firenze',

@@ -12,6 +12,7 @@ import { UserService } from './services/user.service';
 
 import { TappaComponent } from './tappa/tappa.component';
 import { TappeComponent } from './tappe/tappe.component';
+import { PersonaComponent } from '../persona/persona.component';
 
 const routes: Routes = [
   {
@@ -62,7 +63,8 @@ const routes: Routes = [
     UserComponent,
     UserDetailComponent,
     TappaComponent,
-    TappeComponent
+    TappeComponent,
+    PersonaComponent,
   ],
   imports: [
     RouterModule.forRoot(routes),
