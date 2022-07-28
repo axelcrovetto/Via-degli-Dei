@@ -3,6 +3,8 @@ import { faPencilAlt, faTrash, faInfo } from '@fortawesome/free-solid-svg-icons'
 import { Router } from '@angular/router';
 import { Persona } from '../app/classes/Persona';
 import { PersonaService } from '../app/services/persona.service';
+import { TappaService } from '../app/services/tappa.service';
+import { Tappa } from '../app/classes/Tappa';
 
 @Component({
   selector: 'tr[app-persona]',
@@ -11,7 +13,7 @@ import { PersonaService } from '../app/services/persona.service';
   //inputs: ['user:user-data']
 })
 export class PersonaComponent implements OnInit {
-
+  tappa:Tappa=new Tappa();
   @Input('persona-data') persona: Persona = new Persona();
   @Output('onDeletePersona') personaDeleted = new EventEmitter();
   @Output('onSelectTappa') onSelectPersona = new EventEmitter();

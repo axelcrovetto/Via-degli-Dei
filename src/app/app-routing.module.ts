@@ -13,6 +13,7 @@ import { UserService } from './services/user.service';
 import { TappaComponent } from './tappa/tappa.component';
 import { TappeComponent } from './tappe/tappe.component';
 import { PersonaComponent } from '../persona/persona.component';
+import { PersoneComponent } from '../persone/persone.component';
 
 const routes: Routes = [
   {
@@ -54,7 +55,25 @@ const routes: Routes = [
     path: 'tappe/:id/edit',
     component: UserDetailComponent
   }*/
-  
+  {
+    path: 'persone',
+    pathMatch: 'full',
+    component: PersoneComponent
+
+  },
+  {
+    path: '',
+    pathMatch: 'full',
+    redirectTo: 'persone'
+  },
+  /* {
+    path: 'tappe/new',
+    component: UserDetailComponent
+  }, 
+  {
+    path: 'tappe/:id/edit',
+    component: UserDetailComponent
+  }*/
 ];
 
 @NgModule({
@@ -65,6 +84,7 @@ const routes: Routes = [
     TappaComponent,
     TappeComponent,
     PersonaComponent,
+    PersoneComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
