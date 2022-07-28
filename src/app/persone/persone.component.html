@@ -1,0 +1,22 @@
+<table class="table table-dark table-sm table-striped" >
+  <thead>
+    <caption>{{title}}</caption>
+    <tr>
+      <th>Città</th>
+      <th>Elisabetta</th>
+      <th>Virginia</th>
+      <th>Gabriele</th>
+      <th>Federico</th>
+      <th>Sara</th>
+      <th>Alex</th>
+      <th>Axel</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr app-persona *ngFor="let persona of persone" id="{{persona.id}}" [persona-data]="persona">
+
+    </tr>
+  </tbody>
+  
+  </table>
+

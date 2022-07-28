@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Persona } from '../classes/Persona';
 import { PersonaInterface } from '../interfaces/persona';
-
+import { TappaInterface } from '../interfaces/tappa';
+import { Tappa } from '../classes/Tappa';
 @Injectable({
   providedIn:'root'
 })

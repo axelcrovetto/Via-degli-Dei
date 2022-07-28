@@ -5,6 +5,6 @@ export class Persona implements PersonaInterface {
   credenziale:number;
   constructor() {
     this.name = '';
-    this.credenziale = 0;
+    this.credenziale =0;
   }
 }

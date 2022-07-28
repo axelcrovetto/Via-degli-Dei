@@ -12,9 +12,8 @@ import { UserService } from './services/user.service';
 
 import { TappaComponent } from './tappa/tappa.component';
 import { TappeComponent } from './tappe/tappe.component';
-import { PersonaComponent } from '../persona/persona.component';
-import { PersoneComponent } from '../persone/persone.component';
-
+import { PersonaComponent } from './persona/persona.component';
+import { PersoneComponent } from './persone/persone.component';
 const routes: Routes = [
   {
     path: 'users',
